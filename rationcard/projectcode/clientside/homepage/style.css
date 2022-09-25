@@ -1,0 +1,75 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+@import "../components/navbar.css";
+
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.vertical-black {
+    border-left: 2px solid black;
+    height: 3em;
+    margin-left: 2em;
+}
+
+#header {
+    margin-top: 1em;
+}
+
+#header .pure-u-15-24 {
+    margin-left: 2em;
+}
+
+#search {
+    margin-top: 1em;
+}
+
+#search img:nth-child(1) {
+    width: 3em;
+    padding: 0.25em;
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+    z-index: 100;
+    display: block;
+}
+
+#search p {
+    margin-left: 1em;
+    font-size: 1em;
+    padding-top: 0.25em;
+    height: 2em;
+    border-top-right-radius: 2em;
+    border-bottom-right-radius: 2em;
+}
+
+#carousel {
+    margin-top: 2em;
+    height: 8.5em;
+}
+
+#carousel img {
+    width: 17.5em;
+    max-height: 10em;
+    height: 8.5em;
+}
+
+#card {
+    margin-top: 2em;
+    max-height: 50em;
+}
+
+#card img {
+    width: 20em;
+    height: 10em;
+    max-height: 50em;
+}
+
+.family {
+    max-height: 50em;
+}
+
+.family img {
+    width: 20em;
+    height: 3em;
+    max-height: 50em;
+}

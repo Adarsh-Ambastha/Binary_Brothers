@@ -1,0 +1,97 @@
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #16387A;
+}
+
+.active {
+    background-color: #93b3ef;
+}
+
+#header {
+    background-color: white;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 2em;
+}
+
+#appname {
+    padding-left: 1em;
+}
+
+#logo {
+    padding-top: 0.5em;
+    width: 80%;
+}
+
+#search {
+    padding-left: 0.5em;
+    padding-top: 1em;
+    width: 90%;
+}
+
+#usericon {
+    width: 85%;
+    background-color: #D9D9D9;
+    border-radius: 6em;
+}
+
+.alerts {
+    padding-top: 1em;
+}
+
+.vertical-black {
+    margin-top: 0.5rem;
+    border-left: 2px solid black;
+    height: 3em;
+}
+
+.vertical-white {
+    border-left: 2px solid white;
+}
+
+.custom-restricted-width {
+    display: inline-block;
+    font-size: 1.5em;
+    padding-bottom: auto;
+}
+
+.custom-restricted-width a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#inventorylist {
+    margin-top: -5em;
+    margin-left: 13em;
+    background-color: #93b3ef;
+    font-size: large;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+}
+
+td:nth-child(1) {
+    width: 10%;
+}
+
+td:nth-child(2) {
+    width: 30%;
+}
+
+td:nth-child(3) {
+    width: 30%;
+}
+
+td:nth-child(4) {
+    width: 23%;
+}
+
+td:nth-child(4) a:visited {
+    color: darkblue;
